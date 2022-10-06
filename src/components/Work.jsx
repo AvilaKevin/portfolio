@@ -1,6 +1,8 @@
 import React from 'react'
-import WorkImg from '../assets/workImg.jpeg';
-import realEstate from '../assets/realestate.jpg';
+import weatherApp from '../assets/work/WeatherApp.png';
+import QrAccess from '../assets/work/QrAccess.png';
+import ToDo from '../assets/work/ToDo.png';
+import MathTools from '../assets/work/MathTools.png';
 
 
 const Work = () => {
@@ -15,11 +17,11 @@ const Work = () => {
                     <p className='py-6'>// Check out some of my recent work</p>
                 </div>
 
-                {/* GRID CONTAINER */}
+                {/* GRID ITEMS */}
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
-                    {/* GRID ITEAM */}
-                    <div style={{ background: `url(https://i.imgur.com/RvvDFPP.png)` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    {/* GRID weatherApp */}
+                    <div style={{ background: `url(${weatherApp})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -27,18 +29,18 @@ const Work = () => {
                                 React JS Application
                             </span>
                             <div className='pt8 text-center'>
-                                <a href='/'>
+                                <a href='https://avilakevin.github.io/wheather_app/'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href='/'>
+                                <a href='https://github.com/AvilaKevin/wheather_app'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    {/* GRID ITEAM */}
-                    <div style={{ background: `url(${realEstate})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    {/* GRID QrAccess */}
+                    <div style={{ background: `url(${QrAccess})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -46,18 +48,15 @@ const Work = () => {
                                 React JS Application
                             </span>
                             <div className='pt8 text-center'>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                                </a>
-                                <a href='/'>
+                                <a href='https://github.com/AvilaKevin/qr-access-validator'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    {/* GRID ITEAM */}
-                    <div style={{ background: `url(${realEstate})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    {/* GRID ToDo */}
+                    <div style={{ background: `url(${ToDo})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -65,18 +64,18 @@ const Work = () => {
                                 React JS Application
                             </span>
                             <div className='pt8 text-center'>
-                                <a href='/'>
+                                <a href='https://avilakevin.github.io/To-Do-List/'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href='/'>
+                                <a href='https://github.com/AvilaKevin/To-Do-List'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    {/* GRID ITEAM */}
-                    <div style={{ background: `url(${WorkImg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    {/* GRID MathTools */}
+                    <div style={{ background: `url(${MathTools})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -84,10 +83,10 @@ const Work = () => {
                                 React JS Application
                             </span>
                             <div className='pt8 text-center'>
-                                <a href='/'>
+                                <a href='https://avilakevin.github.io/Platzi-Curso-practico-js/'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href='/'>
+                                <a href='https://github.com/AvilaKevin/Platzi-Curso-practico-js'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
