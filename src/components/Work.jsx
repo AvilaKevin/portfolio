@@ -2,7 +2,6 @@ import React from 'react'
 import WorkImg from '../assets/workImg.jpeg';
 import realEstate from '../assets/realestate.jpg';
 
-// 1:08
 
 const Work = () => {
     return (
@@ -20,7 +19,7 @@ const Work = () => {
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
                     {/* GRID ITEAM */}
-                    <div style={{ background: `url(${WorkImg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div style={{ background: `url(https://i.imgur.com/RvvDFPP.png)` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
