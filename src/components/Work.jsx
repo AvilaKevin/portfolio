@@ -38,12 +38,12 @@ const Work = () => {
                             </div>
                         </div>
 
-                        {/* MOVILE BUTTONS */}
+                        {/* MOVILE BUTTONS
 
                         <div className='bg-[#0a192f] lg:hidden flex justify-around w-full'>
                             <button className=' text-white border-2 px-6 py-3 flex items-center bg-pink-600 border-pink-600 rounded-md'>Demo</button>
                             <button className=' text-white border-2 px-6 py-3 flex items-center bg-pink-600 border-pink-600 rounded-md'>Demo</button>
-                        </div>
+                        </div> */}
 
                     </div>
 

@@ -20,7 +20,7 @@ const Contact = () => {
                 <button className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 transition ease-in duration-300 px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
             </form>
 
-            <div className='mt-4 flex justify-around w-full text-gray-300 xl:hidden'>
+            <div className='mt-4 flex justify-around w-full text-gray-300 mb-8 xl:hidden'>
                 <a href='https://www.linkedin.com/in/kevin-santiago-avila-abella-2749781b7/'>
                     <FaLinkedin size={30} />
                 </a>
