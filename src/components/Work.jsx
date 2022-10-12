@@ -21,10 +21,10 @@ const Work = () => {
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
                     {/* GRID weatherApp */}
-                    <div style={{ background: `url(${weatherApp})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex items-end lg:justify-center lg:items-center mx-auto content-div'>
+                    <div style={{ background: `url(${weatherApp})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* Hover Effects */}
-                        <div className='hidden lg:block lg:opacity-0 lg:group-hover:opacity-100'>
+                        <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
                                 React JS Application
                             </span>
@@ -37,13 +37,6 @@ const Work = () => {
                                 </a>
                             </div>
                         </div>
-
-                        {/* MOVILE BUTTONS
-
-                        <div className='bg-[#0a192f] lg:hidden flex justify-around w-full'>
-                            <button className=' text-white border-2 px-6 py-3 flex items-center bg-pink-600 border-pink-600 rounded-md'>Demo</button>
-                            <button className=' text-white border-2 px-6 py-3 flex items-center bg-pink-600 border-pink-600 rounded-md'>Demo</button>
-                        </div> */}
 
                     </div>
 

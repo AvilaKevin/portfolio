@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
@@ -30,7 +30,7 @@ const Contact = () => {
                 <a href='mailto:kevinsantiago2406@hotmail.com'>
                     <HiOutlineMail size={30} />
                 </a>
-                <a href='./Frontend Kevin Santiago 1001173247.docx' download>
+                <a href='./Front-end Kevin Avila.pdf' download>
                     <BsFillPersonLinesFill size={30} />
                 </a>
             </div>
