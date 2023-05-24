@@ -4,6 +4,10 @@ import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
+import NodeJS from '../assets/NodeJs.png';
+import Ex from '../assets/Ex.png';
+import Mongo from '../assets/MongoDB.png';
+import Mongoose from '../assets/Mongoose.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Firebase from '../assets/firebase.png';
@@ -36,6 +40,22 @@ const Skills = () => {
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={ReactImg} alt="ReactImg icon" />
                         <p className='my-4'>REACT</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <img className='w-20 mx-auto' src={NodeJS} alt="Tailwind icon" />
+                        <p className='my-4'>NODE</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <img className='w-20 mx-auto' src={Ex} alt="Tailwind icon" />
+                        <p className='my-4'>EXPRESS</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <img className='w-20 mx-auto' src={Mongo} alt="Tailwind icon" />
+                        <p className='my-4'>MONGO DB</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-end'>
+                        <img className='w-20 mx-auto' src={Mongoose} alt="Tailwind icon" />
+                        <p className='my-4'>MONGOOSE</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={GitHub} alt="GitHub icon" />
