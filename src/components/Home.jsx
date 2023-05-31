@@ -13,10 +13,10 @@ const Home = () => {
                     Kevin Avila
                 </h1>
                 <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
-                    I'm a Front-endDeveloper.
+                    I'm a Front-end Developer.
                 </h2>
                 <p className='text-[#8892b0] py-4 max-w-[700px]'>
-                    I’m a Front-enddeveloper specializing in building exceptional digital experiences.
+                    I’m a Front-end developer specializing in building exceptional digital experiences.
                 </p>
                 <div>
                     <Link to='work' smooth={true} duration={500}>

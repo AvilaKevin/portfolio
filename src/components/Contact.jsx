@@ -5,7 +5,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 const Contact = () => {
     return (
-        <div name='contact' className='w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center p-4'>
+        <div name='contact' className='w-full h-min bg-[#0a192f] flex flex-col justify-center items-center p-4'>
 
             <form method='POST' action="https://getform.io/f/2e87f58d-3f14-41d6-b700-0379469f9545" className='flex flex-col max-w-[600px] w-full'>
 
@@ -30,7 +30,7 @@ const Contact = () => {
                 <a href='mailto:kevinsantiago2406@hotmail.com'>
                     <HiOutlineMail size={30} />
                 </a>
-                <a href='./Front-end Kevin Avila.pdf' download>
+                <a href='./CV Kevin Avila.pdf' download>
                     <BsFillPersonLinesFill size={30} />
                 </a>
             </div>

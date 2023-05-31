@@ -17,7 +17,7 @@ const About = () => {
                         <p>Hi. I’m Kevin, nice to meet you. Please take a look around.</p>
                     </div>
                     <div>
-                        <p>I’m a Front-end developer passionate about the world of technology, eager to learn more every day in order to break down the walls that stand in the way that life offers me, I like to work in a team though I can work individually without affected my performance, I adapt easily to changes and I consider myself a very creative person.</p>
+                        <p>I'm a self-taught programmer who is passionate about technology, with a focus on the front-end and with knowledge of the back-end. Although I have no prior work experience in programming, I have worked on several personal projects and I am constantly looking to learn and improve my skills. I'm able to work independently and in a team.</p>
                     </div>
                 </div>
             </div>
